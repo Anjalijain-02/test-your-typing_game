@@ -1,0 +1,63 @@
+@import url('https://fonts.google.com/specimen/Roboto+Condensed');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 57, 159, 0.35);
+}
+
+.typing-section{
+    text-align: center;
+    color: #c7f804;
+}
+
+#textarea{
+    border: .1rem solid #07e2da;
+    border-radius: 1rem;
+    max-width: 50rem;
+    width: 50rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background-color: rgb(4, 46, 76);
+    color:#c7f804
+}
+
+#btn{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(15, 49, 74);
+    color: #c7f804;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+}
+
+h2{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: #0606fb;
+    text-align: center;
+}
+
+#showSentence, #score{
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    letter-spacing: .02rem;
+    text-align: center;
+    color:#f80492
+}
